@@ -19,7 +19,7 @@ La página busca mostrar parte de su trayectoria, su transformación personal y 
 - JavaScript
 - Git y GitHub
 
-## Autor
+## Estudiante
 Kristopher Umaña Brizuela
 
 ## Sección
