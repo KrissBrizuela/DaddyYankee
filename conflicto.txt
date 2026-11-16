@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Este es el contenido de la segunda rama
-=======
-Este es el contenido de la rama de prueba
->>>>>>> prueba-conflicto
