@@ -1,5 +1,5 @@
 
-// CONTENIDO DEL PRIMER CUADRO: TESTIMONIO
+// CONTENIDO DEL PRIMER CUADRO
 
 const fragmentos = [
 
@@ -50,7 +50,7 @@ const fragmentos = [
 ];
 
 
-// CONTENIDO DEL SEGUNDO CUADRO: EL TRÁNSITO
+// CONTENIDO DEL SEGUNDO CUADRO
 
 const fragmentos2 = [
 
@@ -96,6 +96,8 @@ const fragmentos2 = [
     }
 
 ];
+
+// CONTENIDO DEL TERCER CUADRO
 
 const fragmentos3 = [
 
@@ -144,6 +146,8 @@ const fragmentos3 = [
 
 ];
 
+// CONTENIDO DEL CUARTO CUADRO
+
 
 const fragmentos4 = [
 
@@ -190,6 +194,8 @@ const fragmentos4 = [
     }
 
 ];
+
+// CONTENIDO DEL QUINTO CUADRO
 
 const fragmentos5 = [
 

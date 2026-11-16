@@ -1,5 +1,3 @@
-
-
 /* Colores principales */
 :root {
     --azul: #384B70;
@@ -28,9 +26,7 @@ body {
 
 
 
-/* =================================
-   MENÚ DE NAVEGACIÓN
-================================= */
+/*MENÚ DE NAVEGACIÓN*/
 
 .encabezado {
     width: 100%;
@@ -115,9 +111,7 @@ body {
 
 }
 
-/* =================================
-   IMAGEN PRINCIPAL
-================================= */
+/*IMAGEN PRINCIPAL*/
 
 .inicio {
     width: 100%;
