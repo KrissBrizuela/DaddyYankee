@@ -1,0 +1,187 @@
+/* Configuración general */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.portada {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.pagina-entrada {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Fondo principal */
+
+.portada {
+    width: 100%;
+    height: 100vh;
+    min-height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    background-color: var(--azul-oscuro);
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.167),
+            rgba(8, 8, 8, 0.945)
+        ),
+        url("../img/daddy4.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Cambio de color al pasar el mouse */
+.boton-entrar:hover {
+    transform: scale(1.30);
+    transition: 0.3s;
+}
+
+/* Contenido central */
+
+.portada-contenido {
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Texto pequeño superior */
+
+.portada-subtitulo {
+    color: var(--dorado);
+
+    font-size: 0.85rem;
+    font-weight: bold;
+
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+/* Título principal */
+
+.portada-titulo {
+    color: white;
+
+    font-size: clamp(3rem, 9vw, 7rem);
+
+    font-weight: bold;
+    letter-spacing: 5px;
+
+    margin: 0;
+}
+
+/* Línea decorativa */
+
+.linea-dorada {
+    width: 100px;
+    height: 3px;
+
+    background-color: var(--dorado);
+
+    margin: 30px auto;
+}
+
+/* Descripción */
+
+.portada-descripcion {
+    color: white;
+
+    font-size: 1.1rem;
+    line-height: 1.7;
+
+    margin-bottom: 40px;
+}
+
+/* Botón de entrada */
+
+.boton-entrar {
+    display: inline-block;
+
+    padding: 16px 50px;
+
+    color: white;
+    background-color: transparent;
+
+    border: 2px solid var(--dorado);
+
+    text-decoration: none;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el cursor */
+
+.boton-entrar:hover {
+    background-color: var(--dorado);
+    color: var(--azul-oscuro);
+}
+
+/* Texto inferior */
+
+.portada-pie {
+    position: absolute;
+
+    bottom: 20px;
+
+    color: rgba(255, 255, 255, 0.65);
+
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+}
+
+/* Adaptación para celulares */
+
+@media (max-width: 600px) {
+
+    .portada-subtitulo {
+        font-size: 0.65rem;
+        letter-spacing: 3px;
+    }
+
+    .portada-titulo {
+        letter-spacing: 2px;
+    }
+
+    .portada-descripcion {
+        font-size: 0.95rem;
+    }
+
+    .boton-entrar {
+        padding: 14px 35px;
+    }
+
+}
