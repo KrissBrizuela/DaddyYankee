@@ -165,28 +165,74 @@ const fragmentos4 = [
     },
 
     {
-        titulo: "SONRÍELE",
+        titulo: "LAMENTO EN BAILE",
         texto: [
-            "El 10 de julio de 2025, Daddy Yankee presentó Sonríele, un sencillo que marcó una nueva etapa en su regreso a la música.",
-            "A diferencia de los temas que lo hicieron famoso durante su carrera, esta canción combinó los ritmos urbanos que caracterizaban su estilo con un mensaje de gratitud, esperanza y fe en Dios.",
-            "Su lanzamiento permitió conocer mejor la dirección que quería darle a su música: conservar su identidad artística, pero transmitir un mensaje que estuviera relacionado con su nueva manera de vivir."
+            "En una entrevista con EFE durante la Semana de la Música Latina de Billboard, explicó que quería conservar la misma potencia, el mismo sabor y el mismo estilo musical, pero con un propósito diferente.",
+            "El proyecto reúne diferentes géneros, como reguetón, salsa, hip-hop y otros ritmos urbanos. De esta manera, buscaba demostrar que la música con mensajes cristianos también podía tener energía, variedad y conectar con públicos diferentes.",
         ]
     },
 
     {
-        titulo: "REAPARICIÓN",
+        titulo: "LAMENTO EN BAILE",
         texto: [
-            "En octubre de 2025, Daddy Yankee reapareció públicamente durante la Semana de la Música Latina de Billboard, después de casi dos años alejado de las presentaciones públicas.",
-            "Allí habló sobre su transformación personal y espiritual, y se describió como alguien que se sentía renacido en su fe cristiana.",
-            "También explicó que quería utilizar su influencia dentro de la cultura popular para compartir el Evangelio. Su intención era demostrar que podía conservar la fuerza de la música urbana, pero con un propósito diferente."
+            "Lamento en baile contiene 19 canciones, cada una con una temática particular. Entre ellas encontramos títulos como ¿Quién es Dios?, T Alabaré (Salmo 27), Sonríele, Obra en mí, Gloria a Él y Una vida.",
+            "El álbum también incluye ABCD, una colaboración con el rapero cristiano Alex Zurdo, conocido por su música con mensajes basados en la fe.",
+            "A través de estos temas, Daddy Yankee aborda asuntos como la gratitud, los valores, la relación con Dios y la importancia de vivir con un propósito. El disco se convierte así en una colección de reflexiones personales expresadas mediante diferentes estilos musicales."
         ]
     },
 
     {
-        titulo: "PREMIOS BILLBOARD",
+        titulo: "LAMENTO EN BAILE",
         texto: [
-            "Durante los Premios Billboard de la Música Latina de 2025, Daddy Yankee regresó a un escenario televisado e interpretó Sonríele.",
-            "Pero su participación no se limitó a cantar. También aprovechó el momento para recordar que Jesús es el camino, la verdad y la vida, y compartir un mensaje con los artistas y el público presente."
+            "En su participación en Billboard, comentó que si una sola persona escuchaba su música y encontraba en ella un mensaje capaz de transformar su vida, ya habría cumplido parte de su propósito.",
+            "De esta manera, Lamento en baile se convirtió en una expresión artística de su testimonio. Era una oportunidad para compartir su fe sin abandonar completamente el lenguaje musical que había construido durante décadas."
+        ]
+    }
+
+];
+
+const fragmentos5 = [
+
+    {
+        titulo: "LA POSTAL",
+        texto: [
+            "El 9 de octubre de 2026, Daddy Yankee anunció un nuevo proyecto musical llamado La Postal. Después de presentar Lamento en baile, el artista sorprendió nuevamente a sus seguidores con un álbum conceptual compuesto por 15 canciones.",
+            "El disco fue lanzado oficialmente el 30 de octubre de 2026 y representó una nueva dirección artística. En esta ocasión, su propuesta no estaba dedicada exclusivamente a la música cristiana, sino que buscaba explorar diferentes experiencias humanas a través del amor."
+        ]
+    },
+
+    {
+        titulo: "SIGNIFICADO",
+        texto: [
+            "Daddy Yankee explicó que cada canción del álbum funcionaba como una especie de carta dedicada a una persona o a una experiencia importante.",
+            "El concepto de La Postal nació de la idea de que existen sentimientos que no siempre podemos expresar mediante un simple mensaje. Una postal representa ese gesto de detenerse, pensar en alguien y compartir algo especial.",
+            "El proyecto reúne tres formas principales de amor: el romántico, el familiar y el amor propio. Así, cada canción representa una manera diferente de expresar los sentimientos y las experiencias que forman parte de la vida."
+        ]
+    },
+
+    {
+        titulo: "UN AMOR MÁS REAL",
+        texto: [
+            "En la presentación del álbum, Daddy Yankee explicó que no quería representar el amor como una fantasía perfecta. Su intención era mostrarlo desde una perspectiva más humana, incluyendo la felicidad, las contradicciones, las heridas, las despedidas y la sanación.",
+            "También mencionó la importancia de aprender a amarse a uno mismo y valorar a la familia. Esto permitió que La Postal tuviera un concepto más personal, en el que las canciones no solamente hablaran de relaciones románticas, sino también de experiencias que pueden marcar la vida de cualquier persona.",
+        ]
+    },
+
+    {
+        titulo: "CONECTANDO CULTURAS",
+        texto: [
+            "Una de las características más llamativas de La Postal es la variedad de artistas y sonidos que reúne. El álbum cuenta con colaboraciones de figuras como Bizarrap, Cardi B, Danny Ocean, De La Rose, Diljit Dosanjh y Myke Towers.",
+            "Entre sus canciones destaca Pokito, una colaboración con el artista indio Diljit Dosanjh que combina elementos de la música punyabí con el reguetón. También participa Jeremy Ayala González, hijo de Daddy Yankee, quien colaboró en la producción de parte del proyecto. Esto demuestra cómo el artista continúa experimentando con nuevos sonidos y conectando diferentes generaciones y culturas."
+        ]
+    },
+
+    {
+        titulo: "Y CONTINÚA...",
+        texto: [
+            "Al observar el recorrido desde su despedida de los escenarios en 2023 hasta la publicación de La Postal en 2026, podemos reconocer diferentes etapas en su vida artística.",
+            "Primero anunció públicamente su decisión de seguir a Cristo. Después compartió su testimonio, utilizó su música para transmitir mensajes de fe y presentó Lamento en baile. Finalmente, con La Postal, exploró nuevas experiencias humanas a través de un proyecto musical conceptual.",
+            "Su historia nos recuerda que la vida está llena de nuevos comienzos y que las personas pueden seguir aprendiendo, creciendo y descubriendo nuevas formas de expresar lo que llevan dentro.",
+            "Esta no es solamente la historia de un artista que se despidió de los escenarios. Es la historia de un hombre que decidió comenzar una nueva etapa de su vida."
         ]
     }
 
@@ -279,3 +325,4 @@ iniciarCuadro("cuadro1", fragmentos, 1);
 iniciarCuadro("cuadro2", fragmentos2, 2);
 iniciarCuadro("cuadro3", fragmentos3, 3);
 iniciarCuadro("cuadro4", fragmentos4, 4);
+iniciarCuadro("cuadro5", fragmentos5, 5);
