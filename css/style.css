@@ -25,6 +25,151 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+/* =================================
+   MENÚ DE NAVEGACIÓN
+================================= */
+
+.encabezado {
+    width: 100%;
+    height: 85px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 7%;
+    box-sizing: border-box;
+
+    background-color: transparent;
+}
+
+.logo img {
+    width: 65px;
+    height: 65px;
+
+    object-fit: contain;
+
+    position: relative;
+    top: 4px;
+}
+
+/* Opciones del menú */
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+/* Enlaces */
+
+.menu a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+
+.menu a:hover {
+    color: rgb(184, 11, 11);
+}
+
+/* Adaptación para celulares */
+
+@media (max-width: 600px) {
+
+    .encabezado {
+        height: auto;
+        padding: 25px 5%;
+
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        font-size: 0.7rem;
+    }
+
+}
+
+/* =================================
+   IMAGEN PRINCIPAL
+================================= */
+
+.inicio {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.052),
+            rgba(0, 0, 0, 0.281)
+        ),
+        url("../img/menu1.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: white;
+}
+
+/* Contenido de la imagen */
+
+.inicio-contenido {
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Texto superior */
+
+.inicio-contenido p {
+    color: var(--dorado);
+
+    font-size: 0.85rem;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+}
+
+/* Título principal */
+
+.inicio-contenido h1 {
+    color: white;
+
+    font-size: clamp(2rem, 6vw, 4.5rem);
+
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
 .pagina {
     width: 92%;
     max-width: 1240px;
@@ -47,7 +192,7 @@ body {
     height: 440px;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 8px 25px rgba(16, 27, 53, 0.16);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.667);
 }
 
 .imagen-capitulo img {
@@ -73,7 +218,7 @@ body {
 
 .sobre-titulo {
     margin: 0 0 16px;
-    color: var(--dorado);
+    color: rgb(225, 16, 16);
     font-size: 0.76rem;
     font-weight: bold;
     letter-spacing: 0.12em;
@@ -193,6 +338,27 @@ h1 {
 .muestras-fragmentos p {
     color: var(--texto-suave);
     line-height: 1.7;
+}
+
+
+/* PIE DE PÁGINA */
+
+.pie-pagina {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Texto final */
+
+.derechos {
+    color: #AEB7C8;
+    font-size: 1rem;
+    padding-top: 20px;
+    margin: 0;
+    transform: translateY(-9px);
 }
 
 /* Adaptación a celulares */
