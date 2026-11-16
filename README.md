@@ -26,4 +26,4 @@ Kristopher Umaña Brizuela
 10-3
 
 ## Proyecto de:
-Programación Web y Diseño de Software.
+Programación y Diseño de Software.
